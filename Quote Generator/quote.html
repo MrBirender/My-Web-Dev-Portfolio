@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="quote.css">
+</head>
+<body>
+    <div class="quoteBox">
+        <h2>Quote of the day</h2>
+        <blockquote id="quote">Loading...</blockquote>
+        <span id="author">Loading</span>
+
+        <div>
+            <button onclick="getQuote(apiUrl)" >New Quote</button>
+            <button onclick="tweet()"> <img src="https://imgs.search.brave.com/TTzBkUWXt5F1QB0xOFZY7PVrNKDYrB4xdWgbCNi6ZIM/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNWI2NTZkZWU2/YzA0MDgzMjhkYjRh/MmVlMWZlNDM0NTE0/NWFjZDJiMTI5ZWFl/MTk4MGFmYmVlYjgz/YTM4ZmY2MC9kZXZl/bG9wZXIudHdpdHRl/ci5jb20v" alt="whatsapp tag">Tweet</button>
+        </div>
+    </div>
+</body>
+<script src="quote.js"></script>
+</html>

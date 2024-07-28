@@ -1,0 +1,61 @@
+/* Fill CSS here */
+h1{
+    text-align: center;
+    background-color: #0068af;
+    color: white;
+    grid-column: span 2;
+    
+}
+
+#box1, #box2{
+    padding: 15px;
+}
+
+/* #box2{
+    width: 90%;
+} */
+
+form{
+    border: 2px solid;
+    font-size: large;
+    width: 70%;
+    height: 60vh; 
+    padding: 20px;
+
+}
+
+form input{
+    width:90%;
+    padding: 5px;
+    margin-bottom: 10px;
+     
+}
+
+form select{
+    width: 94%;
+    margin-bottom: 10px;
+    padding: 7px;
+}
+form input[type="submit"]{
+    width: 94%;
+    color: white;
+    background-color: #0068af;
+    border: none;
+    border-radius: 10px;
+    font-size: medium;
+
+}
+body{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 100px, 200px;
+    gap: 5px;
+}
+
+
+
+table thead{
+    background-color: #0068af;
+    color: white;
+    font-size: large;
+}
